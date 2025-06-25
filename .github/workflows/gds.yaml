@@ -56,11 +56,6 @@ jobs:
         run:
           git apply --allow-empty ../patches/openlane2.patch
 
-      - name: Patch multiplexer repo
-        working-directory: tt-multiplexer
-        run:
-          git apply --allow-empty ../patches/mux-4-tile-high.patch
-
       - name: Update caravel configuration
         run: python ./tt/configure.py --update-shuttle
 

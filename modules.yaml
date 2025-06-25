@@ -6,10 +6,9 @@ modules:
   - name: "factory_test"
     x: 7
     y: 14
-# 4-Tile High modules require special handling until they are supported in the multiplexer:
+# 4-Tile High modules require manual placing until they are fully supported by the multiplexer:
   - name: rejunity_lgn_mnist
-    height: 2
+    height: 4
     width: 4
     x: 11
     y: 23
-    pg_vdd: "std"
