@@ -165,11 +165,10 @@ jobs:
           path: chipfoundry
 
       # Install iverilog, cocotb (required for GL test)
-      - name: install oss-cad-suite
-        uses: YosysHQ/setup-oss-cad-suite@v3
-        with:
-          version: '2023-05-27'
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: install iverilog, cocotb
+        run: |
+          pip install -r verilog/dv/mux/requirements.txt
+          sudo apt-get update && sudo apt-get install -y iverilog
 
       - name: GL simulation
         working-directory: verilog/dv/mux
