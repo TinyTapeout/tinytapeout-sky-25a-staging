@@ -1,0 +1,10 @@
+{
+  "app": "Tiny Tapeout ttsky25a 5c12dd81",
+  "repo": "https://github.com/mgolser/4-Bit-Binary-Comparator",
+  "commit": "c7408a27dd1edf3503d4417b62dbd5b0cda79975",
+  "workflow_url": "https://github.com/mgolser/4-Bit-Binary-Comparator/actions/runs/17736369555",
+  "sort_id": 1757949171406,
+  "flow_version": "OpenLane2 2.2.9",
+  "pdk_name": "open_pdks",
+  "pdk_version": "open_pdks 0fe599b2afb6708d281543108caf8310912f54af"
+}
